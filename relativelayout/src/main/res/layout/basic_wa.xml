@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/txtHi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/llBtm"
+            android:text="Hi"
+            android:textSize="25sp"
+            android:padding="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e8e8e8"
+            android:layout_alignParentRight="true"/>
+
+    <TextView
+            android:id="@+id/txtHlo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txtHi"
+            android:text="Hello, I am android"
+            android:textSize="25sp"
+            android:padding="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e8e8e8"
+    />
+
+    <LinearLayout
+            android:id="@+id/llBtm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:padding="20dp">
+
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
