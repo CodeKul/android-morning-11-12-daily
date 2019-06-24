@@ -1,1 +1,1 @@
-include ':app', ':relativelayout', ':mylib'
+include ':app', ':relativelayout', ':mylib', ':constraintlayout'
