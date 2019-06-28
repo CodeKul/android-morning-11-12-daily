@@ -1,1 +1,1 @@
-include ':app', ':relativelayout', ':mylib', ':constraintlayout', ':recyclerview'
+include ':app', ':relativelayout', ':mylib', ':constraintlayout', ':recyclerview', ':interactcom'
