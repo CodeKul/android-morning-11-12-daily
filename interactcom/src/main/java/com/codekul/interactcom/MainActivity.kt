@@ -19,12 +19,17 @@ class MainActivity : AppCompatActivity() {
             )
 
             val bnd = Bundle()
-            bnd.putString("my_name", etTx.text.toString())
+            bnd.putString(KEY_NAME, etTx.text.toString())
 
             int.putExtras(bnd)
 
             startActivity(int)
-            finish()
+//            finish()
         }
+    }
+
+    companion object {
+
+        const val KEY_NAME = "my_name"
     }
 }
